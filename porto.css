@@ -41,24 +41,25 @@ body{
 .menu{
     position: relative;
     top: -33px;
-    right: 65px;
+    right: 27px;
     list-style: none;
     overflow: hidden;
+    text-align: center;
     z-index: 3;
     display: none;
     height: 100%;
-    width: 120%;
-    transition: 0.6s;      
+    width: 100%;
+    transition: 0.6s;   
 }
 .menu li {
-    left: 10px;
-    padding:8px ;
+    padding-right: 10px;
     background:rgb(79, 75, 75);
     font-size:14px;
     color:rgb(255, 255, 255);
     transition:all 0.3s ease-in;
     padding-bottom: 153px;
     height: 100%;
+    width: 100%;
    }
 
 
@@ -69,7 +70,6 @@ body{
     text-align: center;
     font-size: 15px;
     top: 50px;
-    left: 10px;
     transform: translateY(480px);
     transition-delay: 0.8s;
 }
